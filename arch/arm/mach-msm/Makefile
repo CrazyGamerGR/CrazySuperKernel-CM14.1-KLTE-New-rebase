@@ -504,6 +504,7 @@ obj-$(CONFIG_BT_BCM4354) += board-bluetooth-bcm4354.o
 
 obj-$(CONFIG_ARCH_RANDOM) += early_random.o
 obj-$(CONFIG_PERFMAP) += perfmap.o
+<<<<<<< HEAD
 
 obj-$(CONFIG_SEC_VIENNA_PROJECT) += board-vienna-motor.o
 obj-$(CONFIG_SEC_V2_PROJECT) += board-vienna-motor.o
@@ -522,3 +523,5 @@ obj-$(CONFIG_GSM_MODEM_SPRD6500) += board-sprd6500-spi.o board-sprd6500-modems.o
 obj-$(CONFIG_MSM_LIMITER) += msm_limiter.o
 
 obj-$(CONFIG_FORCE_FAST_CHARGE) += fastchg.o
+
+obj-$(CONFIG_BRICKED_HOTPLUG) += bricked_hotplug.o
