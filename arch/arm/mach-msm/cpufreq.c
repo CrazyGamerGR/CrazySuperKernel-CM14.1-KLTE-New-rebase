@@ -239,7 +239,7 @@ static int msm_cpufreq_verify(struct cpufreq_policy *policy)
 	return 0;
 }
 
-unsigned int msm_cpufreq_get_freq(unsigned int cpu)
+static unsigned int msm_cpufreq_get_freq(unsigned int cpu)
 {
 	if (is_clk && is_sync)
 		cpu = 0;
